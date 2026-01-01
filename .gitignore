@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.sqlite3
+
+# Jupyter
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+
+# Airflow
+logs/
+airflow.db
+*.db
+*.egg-info/
+
+# Docker
+*.env
+*.dockerignore
+.DS_Store
+
+# Conda environments
+env/
