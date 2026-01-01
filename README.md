@@ -26,12 +26,13 @@ The ETL pipeline performs the following steps:
 
 ## Project Structure
 
-DE ETL_Pipelines/
+DE_ETL_Pipelines/
 ├── dags/
-│ └── etlweather.py # Main Airflow DAG
-├── .gitignore
-├── README.md
-└── requirements.txt # Python dependencies
+│   └── etlweather.py        # Main Airflow DAG
+├── .gitignore               # Files/folders to ignore in Git
+├── README.md                # Project documentation
+└── requirements.txt         # Python dependencies
+
 
 
 ---
