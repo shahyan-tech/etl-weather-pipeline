@@ -22,21 +22,6 @@ The ETL pipeline performs the following steps:
 - DBeaver (for database inspection)
 - Python libraries: `requests`, `json`, `pandas`, `airflow.providers.http`, `airflow.providers.postgres`
 
----
-
-## Project Structure
-
-DE_ETL_Pipelines/
-├── dags/
-│   └── etlweather.py        # Main Airflow DAG
-├── .gitignore               # Files/folders to ignore in Git
-├── README.md                # Project documentation
-└── requirements.txt         # Python dependencies
-
-
-
----
-
 ## Setup Instructions
 
 ### 1. Install dependencies
